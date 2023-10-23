@@ -11,7 +11,7 @@ def display(arr):
     for i in range(len(arr)):
         print(arr[i],end=" ")
 arr=[21,-10,45,22,66,100]
-print("before sorting")
+print("before sort")
 display(arr)
 print("\nafter sorting")
 selection_sort(arr)
