@@ -1,3 +1,3 @@
 # python_basic
 sortingAlgorithm
-It contain sorting algorithm
+It contain sorting algorithm for practise.
