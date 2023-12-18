@@ -11,7 +11,7 @@ def display(arr):
         print(arr[i],end=" ")
     print()
 arr=[12,100,33,-10,56,1,-90]
-print("before sorting")
+print("before sorting the")
 display(arr)
 bubble_sort(arr)
 display(arr)
