@@ -17,7 +17,7 @@ def branchesToExclude = ["main","feature1","feature2","feature3"]
                 echo "No need to delete the workspace"
             } else {
                 dir(workspace) {
-                    deleteDir()
+                    echo "hii"
                 }
             }
         }
