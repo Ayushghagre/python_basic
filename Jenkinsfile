@@ -9,6 +9,10 @@ node {
     def workspace = "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\"
 
     try {
+        stage("git checkout")
+        {
+            git branch: 'main', url: 'https://github.com/Ayushghagre/python_basic.git'
+        }
         stage("Clearing Workspace") {
 
 def branchesToExclude = ["main","feature1","feature2","feature3"]
